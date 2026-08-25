@@ -94,6 +94,17 @@ h2 { font-size: clamp(1.5rem, 3.5vw, 2.1rem); margin: 0 0 1rem; line-height: 1.2
 .card h3 { margin: 0 0 .5rem; font-size: 1.05rem; }
 .card p { margin: 0; color: var(--muted); font-size: .95rem; }
 
+/* Projects */
+.projects { grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr)); }
+.project .period { display: block; font-size: .8rem; margin-bottom: .45rem; }
+.project h3 { font-size: 1rem; }
+.project .role { color: var(--accent-2); font-weight: 600; font-size: .85rem; margin: 0 0 .6rem; }
+.resp-list { list-style: none; padding: 0; margin: .7rem 0 0; }
+.resp-list li { position: relative; padding-left: 1.05rem; font-size: .85rem; color: var(--muted); margin-bottom: .25rem; }
+.resp-list li::before { content: "–"; position: absolute; left: 0; color: var(--accent); }
+.project .tag-list { margin-top: .8rem; }
+.project .tag-list li { padding: .15rem .6rem; font-size: .78rem; }
+
 .aside-note {
   margin-top: 2.5rem; padding: 1.2rem 1.4rem;
   border-left: 3px solid var(--accent-2); background: var(--bg-soft); border-radius: 0 .6rem .6rem 0;
