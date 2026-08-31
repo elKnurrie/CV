@@ -52,6 +52,12 @@ body {
 .site-header nav { display: flex; gap: 1.1rem; flex-wrap: wrap; }
 .site-header nav a { color: var(--muted); text-decoration: none; font-size: .92rem; }
 .site-header nav a:hover { color: var(--accent); }
+.lang-toggle {
+  background: none; border: 1px solid var(--line); border-radius: 2rem;
+  color: var(--accent); font-weight: 700; font-size: .85rem;
+  padding: .2rem .8rem; cursor: pointer;
+}
+.lang-toggle:hover { border-color: var(--accent); }
 
 main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.4rem; }
 
